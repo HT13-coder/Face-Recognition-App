@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Face Recognition Project</string>
+    <string name="start_camera">Start Camera</string>
+    <string name="pick_image">Pick Image</string>
+    <string name="output">Output</string>
+    <string name="go_to_face_detection_activity">Go to Face detection activity</string>
+    <string name="title_activity_face_recogniton">FaceRecognitonActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_newfacedetectionactivity">newfacedetectionactivity</string>
+    <string name="title_activity_face_recognitionusing_facenet">FaceRecognitionusingFacenet</string>
+    <string name="go_to_image_activity">Go To Image Activity</string>
+    <string name="find_lost_person">Find Lost Person</string>
+    <string name="status">Status</string>
+    <string name="face_recognition">Face Recognition</string>
+</resources>
