@@ -12,7 +12,7 @@ Developed an Android App implementing Face Recognition to find lost people with 
 
 ## Model
 Used a custom tflite model to predict the faces of missing person .The custom model was prepared by training the tflite architecture on 4 different classes: Harshit,Kapil,Prashant,Khushal. The data for these 4 classes was obtained from a dummy database that is used for demonstration purpose only.In real world a missing person database containing name and image of missing person will be maintained and the no. of missing person will constitute the no. of classes that will be used to perform the face classification task using tflite architecture.
-After then we implement the ML Kit's Image Classification and Face Detection to the tflite model
+After we get the tflite model then we implement the ML Kit's Image Classification and Face Detection to it.
 
 The custom tflite model with was created using the website: https://teachablemachine.withgoogle.com/
 The dummy dataset used for training my custom tflite model is:  
