@@ -150,6 +150,7 @@ class FaceDetectionActivity : AppCompatActivity() {
                         val boxWithLabel= BoxWithLabel(face.boundingBox,
                             "" + face.trackingId)
                         boxes.add(boxWithLabel)
+                        outputTextView.text="Face Detected"
 
                     }
                     drawDetectionResult(boxes, bitmap)
